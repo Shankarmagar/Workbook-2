@@ -25,9 +25,6 @@ public class FullNameGenerator {
 
         System.out.println(firstName + " "+ MiddleName + " " + LastName + title);
 
-
-
-
     }
 
     public static  String getUserInput(Scanner scanner, String prompt)
