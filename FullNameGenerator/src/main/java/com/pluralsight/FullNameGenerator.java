@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class FullNameGenerator {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         String firstName = getUserInput(scanner,"Enter your first name: ");
         String MiddleName = getUserInput(scanner, "Enter Middle Name: ");

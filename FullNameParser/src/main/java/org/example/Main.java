@@ -29,8 +29,8 @@ public class Main {
             LastName = LastName.substring(0,1).toUpperCase()+LastName.substring(1);
 
         }
-        else {
-
+        else
+        {
             MiddleName = s[1].trim();
             MiddleName = MiddleName.substring(0,1).toUpperCase()+MiddleName.substring(1);
             LastName = s[2].trim();
@@ -40,4 +40,5 @@ public class Main {
         System.out.println("FirstName is: "+ FirstName + "\n Middle name is: "+ MiddleName + "\nLast name is: "+  LastName);
 
     }
+
 }
