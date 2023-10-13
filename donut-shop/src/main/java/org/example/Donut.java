@@ -13,6 +13,8 @@ public class Donut {
      this.price =p;
      this.description =des;
     }
+
+    @Override
     public String toString()
    {
        return "Type of donut is: "+ this.type + "\nCalories: "+ this.calories +"\nPrice: $"+ this.price+"\nDescription: "+ this
