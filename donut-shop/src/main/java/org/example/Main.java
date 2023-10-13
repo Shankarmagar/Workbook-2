@@ -10,14 +10,18 @@ public class Main {
         donuts[4] = new Donut("Boston Cream Donut", 350, 4.45, "A round, chocolate-glazed donut filled with custard or cream.");
         donuts[5] = new Donut("Cinnamon Sugar Donut", 350, 4.45, "A donut coated in a mixture of cinnamon and sugar.");
 
+
+        double TotalPrice = 0.00;
         System.out.println("Welcome to Donut-Shop:-");
         System.out.println("----------------------------------------------");
         for (Donut d: donuts)
         {
+            TotalPrice += d.price;
             String output = d.toString();
             System.out.println(output);
             System.out.println("//---------------------------------------------------//");
         }
+        System.out.printf("Total price for all donuts are as follows: $%.2f", TotalPrice);
 
     }
 }
